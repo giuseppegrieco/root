@@ -3,8 +3,50 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Giuseppe Grieco</title>
+    <title>gg/root</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .links a {
+            color: #00ff00;
+            margin: 0.5rem 0;
+            display: flex;
+            transition: color 0.2s;
+        }
+
+        .links a[href] {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <h1>Welcome to /root.<br />Exit through the links.</h1>
+    <div class="links">
+        <a href="https://github.com/giuseppegrieco">GitHub</a>
+        <a>-</a>
+        <a href="https://twitter.com/_giuseppegrieco">X</a>
+        <a>-</a>
+        <a href="https://substack.com/@griecogiuseppe">Substack</a>
+    </div>
 </body>
 </html>
